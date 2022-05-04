@@ -17,7 +17,7 @@ from brute_force.pin_unlock import unlock
 from brute_force.sum_of_first_n_sums import sum_n_n
 
 print("---Testing of algorithms---")
-print("******sorting******")
+print("-----sorting-----")
 arr = [9, 5, 4, 7, 10, 14, 15, 13, 8, 2]
 arr2 = [8, 5, 7, 8, 9, 10, 5 ,7, 3, 2]
 print("input for all sorting: ",arr)
@@ -39,7 +39,7 @@ print("******selection_sort******")
 print("output: ", selection_sortf(arr))
 print()
 
-print("******searching******")
+print("-----searching-----")
 arr = [9, 5, 4, 7, 10, 14, 15, 13, 8, 2]
 arr2 = [8, 5, 7, 8, 9, 10, 5 ,7, 3, 2]
 print("******binary search******")
@@ -60,7 +60,7 @@ else:
 print("output: ", ans)
 print()
 
-print("******Recursion******")
+print("-----Recursion-----")
 arr = [9, 5, 4, 7, 10, 14, 15, 13, 8, 2]
 arr2 = [8, 5, 7, 8, 9, 10, 5 ,7, 3, 2]
 print("******countdown******")
@@ -83,7 +83,7 @@ print("input: 10")
 print("output: ", sum_n(10))
 print()
 
-print("******lists******")
+print("-----lists-----")
 print("******largest_number_in_list******")
 randomlist = random.sample(range(1, 1000), 20)
 print("input:", randomlist)
@@ -98,19 +98,17 @@ print("inputs : ",list1, " and ", list2)
 print("output: ", combinacion(list1,list2)) 
 print()
 
-print("******brute_force******")
+print("-----brute_force-----")
 print("******divisors_of_n******")
 print("input: 893" )
 print("output: ", divisor(893))
 print()
 
-print("******brute_force******")
 print("******pin_unlock******")
 print("input: 4004" )
 print("output: ", unlock("4004"))
 print()
 
-print("******brute_force******")
 print("******sum_of_first_n_sums******")
 print("input: 50" )
 print("output: ", sum_n_n(50))

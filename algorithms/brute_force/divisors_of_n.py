@@ -10,6 +10,3 @@ def divisor(n):
 
     return d
 
-n = 893
-result = divisor(n)
-print ("numero: " + str(n) + " divisores: " + str(result))
