@@ -105,6 +105,6 @@ print("******pin_unlock******")
 print("input: 4004" )
 print("output: ", unlock("4004"),"\n")
 
-print("******sum_of_first_n_sums******")
+print("******sum_of_first_n_nums******")
 print("input: 50" )
 print("output: ", sum_n_n(50),"\n")
